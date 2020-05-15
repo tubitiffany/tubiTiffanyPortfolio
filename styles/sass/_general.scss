@@ -1,0 +1,28 @@
+h1,
+h3 {
+    font-family: $headerFont;
+    font-size: 60px;
+}
+
+h2, 
+p {
+    font-family: $bodyFont;
+    font-size: 20px;
+}
+
+.shadow {
+    text-shadow: 2px 5px 5px $darkColor;
+}
+
+.background {
+    background-color: $lightColor;
+}
+
+button {
+        margin-top: 40px;
+        padding: 8px 10px;
+        background: $lightColor;
+        border: 2px solid $darkColor;
+        border-radius: 20px;
+        font-weight: bold;
+}
